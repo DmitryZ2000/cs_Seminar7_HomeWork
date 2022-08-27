@@ -30,7 +30,7 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-void AverigeColumt(int[,] matrix)
+void AverigeColum(int[,] matrix)
 {
     double average = 0;
     for (int j = 0; j < matrix.GetLength(1); j++)
@@ -50,4 +50,4 @@ int column = Convert.ToInt32(Console.ReadLine());
 
 int[,] matrix = CreateMatrix(row, column);
 PrintMatrix(matrix);
-AverigeColumt(matrix);
+AverigeColum(matrix);
